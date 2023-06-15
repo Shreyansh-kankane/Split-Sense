@@ -60,11 +60,6 @@ export default function Home() {
   const deleteTransc = async (id)=>{
     await deleteDoc(doc(db,'transactions',id));
   }
-
-  //delete trip
-  // const deleteTrip = async ()=>{
-  //   await deleteDoc(doc(db,'transactions'));
-  // }
   
   return (
     <main className="bg-slate-950 min-h-screen">

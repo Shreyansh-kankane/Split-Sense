@@ -8,8 +8,8 @@ const page = () => {
                 <h1 className="text-5xl font-bold mb-5 min-w-max">Split Sense !</h1>
                 <p className="text-slate-400">make your split more sensible</p>
                 <div className='w-full flex justify-center'>
-                    <button className='border inline-block border-slate-500 bg-sky-600 hover:bg-sky-500 rounded-lg p-3 m-3 font-semibold w-24 text-center'>login</button>
-                    <Link href={'login'} className='border inline-block border-slate-500 bg-white text-gray-500 hover:bg-slate-300 rounded-lg p-3 m-3 font-semibold w-24 text-center'>Sign Up</Link>
+                    <Link href={'/login'}><button className='border inline-block border-slate-500 bg-sky-600 hover:bg-sky-500 rounded-lg p-3 m-3 font-semibold w-24 text-center'>login</button> </Link>
+                    <Link href={'/SignUp'} className='border inline-block border-slate-500 bg-white text-gray-500 hover:bg-slate-300 rounded-lg p-3 m-3 font-semibold w-24 text-center'>Sign Up</Link>
                 </div>
             </div>
             <div className='flex flex-col flex-wrap w-[80%]  md:max-w-[480px] md:mx-5 p-4 border border-slate-600 rounded-lg bg-slate-600 text-white'>
